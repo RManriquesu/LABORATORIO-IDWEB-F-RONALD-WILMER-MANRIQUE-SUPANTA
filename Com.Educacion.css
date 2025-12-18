@@ -1,0 +1,161 @@
+body{
+    background-color: black;
+    margin: 15px;
+    padding: 20px;
+}
+h1{
+    font-family: cursive;
+    color: white;
+    width: 340px;
+    padding: 10px;
+}
+a{
+    border-radius: 20px 20px;
+    text-decoration: none;
+    font-size: 40px;
+    color:black;
+    padding: 15px;
+    text-align: center;
+}
+
+.container{
+    background-color:  #FFA500;
+    color:  #000000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    Padding: 15px 50px;
+    justify-content: space-between;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navegador{
+    text-align: left;
+    
+}
+.navegador ul {
+    list-style: none;
+    display: flex; 
+}
+
+.navegador ul li {
+    margin-left: 25px;
+}
+
+.navegador ul li a {
+    text-transform: uppercase;
+    font-size: 28px;
+    padding: 5px 0;
+    text-decoration: none;
+}
+
+.navegador ul li a:hover,
+.navegador ul li a.active {
+    color: #a2d9a2; 
+}
+main {
+    flex-grow: 1; 
+}
+
+.logo img{
+    height: 120px;
+    width: auto;
+    display: flex;
+    justify-content: left;
+    border-radius: 15px;
+}
+
+.Universidad{
+    border-radius: 30px 0 0 30px;
+    padding: 3px;
+    background-color: wheat;
+    width: 800px;
+    margin: 15px;
+    font-family:monospace;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+.Secundaria{
+    border-radius: 30px 0 0 30px;
+    padding: 3px;
+    background-color: rgb(236, 176, 9);
+    width: 800px;
+    margin:15px;
+    font-family:monospace;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+.Primaria{
+    border-radius: 30px 0 0 30px;
+    padding: 3px;
+    background-color: wheat;
+    width: 800px;
+    margin: 15px;
+    font-family:monospace;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+.Inicial{
+    border-radius: 30px 0 0 30px;
+    padding: 3px;
+    background-color: rgb(236, 176, 9);
+    width: 1600px;
+    margin:15px;
+    font-family:monospace;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 60px
+}
+
+.textos3-imagen-union{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+.imagen-lateral{
+    width: 580px;
+    border-radius: 30px;
+
+}
+.textos3{
+    width: 50%;
+}
+}
+
+
+.facebook{
+    background-color: black;
+    color: white;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    box-shadow: 4px 4px 4px rgb(243, 147, 4);
+    border-radius: 20PX;
+}
+.instagram{
+    background-color: black;
+    color: white;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    box-shadow: 4px 4px 4px rgb(243, 147, 4);
+    border-radius: 20PX;
+}
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+}
+.correo{
+    text-align: center;
+    color: white;
+}
+.numero{
+    text-align: center;
+    color:white;
+}

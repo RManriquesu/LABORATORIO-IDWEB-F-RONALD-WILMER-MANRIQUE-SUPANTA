@@ -1,0 +1,214 @@
+a{
+    text-decoration: none;
+    font-size: 40px;
+    color:black;
+    padding: 12px;
+    text-align: center;
+
+}
+body{
+    background-color: black;
+    margin: 15px;
+    padding: 20px;
+}
+
+.container{
+    background-color:  #FFA500;
+    color:  #000000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    Padding: 15px 50px;
+    justify-content: space-between;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navegador{
+    text-align: left;
+    
+}
+.navegador ul {
+    list-style: none;
+    display: flex; 
+}
+
+.navegador ul li {
+    margin-left: 25px;
+}
+
+.navegador ul li a {
+    text-transform: uppercase;
+    font-size: 28px;
+    padding: 5px 0;
+    text-decoration: none;
+}
+
+.navegador ul li a:hover,
+.navegador ul li a.active {
+    color: #a2d9a2; 
+}
+main {
+    flex-grow: 1; 
+}
+
+.logo img{
+    height: 120px;
+    width: auto;
+    display: flex;
+    justify-content: left;
+    border-radius: 15px;
+}
+/* --- Sección de Habilidades Profesional --- */
+.skills-section {
+    background-color: #050505; /* Negro profundo */
+    padding: 80px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.titulo-seccion {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, #00d4ff, #0055ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Título degradado */
+}
+
+.subtitulo {
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+}
+
+/* Grid Responsivo */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+/* Tarjetas con efecto Glassmorphism */
+.skill-category {
+    background: rgba(255, 255, 255, 0.03); /* Fondo translúcido */
+    backdrop-filter: blur(10px); /* Desenfoque de fondo */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 30px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Efecto Hover: Elevación y Brillo */
+.skill-category:hover {
+    transform: translateY(-10px);
+    border-color: #00d4ff;
+    box-shadow: 0 15px 30px rgba(0, 212, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.skill-category h3 {
+    font-size: 1.4rem;
+    color: white;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-category li {
+    background: rgba(255, 255, 255, 0.05);
+    margin-bottom: 12px;
+    padding: 12px 15px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    font-size: 0.95rem;
+    transition: 0.3s;
+}
+
+.skill-category li:hover {
+    background: rgba(0, 212, 255, 0.1);
+    padding-left: 20px; /* Pequeño desplazamiento al pasar el mouse */
+}
+
+.skill-category li i {
+    margin-right: 12px;
+    font-size: 1.2rem;
+    color: white    ;
+    width: 25px; /* Alineación uniforme de iconos */
+    text-align: center;
+}
+
+/* Responsividad para móviles */
+@media (max-width: 600px) {
+    .titulo-seccion { font-size: 2rem; }
+    .skills-grid { grid-template-columns: 1fr; }
+}
+
+
+
+
+
+.facebook{
+    background-color: black;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    box-shadow: 4px 4px 4px rgb(243, 147, 4);
+    border-radius: 20px;
+    color: white;
+}
+.instagram{
+    background-color: black;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    box-shadow: 4px 4px 4px rgb(243, 147, 4);
+    border-radius: 20px;
+    color: white;
+}
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+}
+.correo{
+    text-align: center;
+    color: white;
+}
+.numero{
+    text-align: center;
+    color:white
+}
+
+.search-box {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#skill-search {
+    background: #111;
+    border: 1px solid #333;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    width: 300px;
+    outline: none;
+    transition: 0.3s;
+}
+
+#skill-search:focus {
+    border-color: #00d4ff;
+    box-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+}
